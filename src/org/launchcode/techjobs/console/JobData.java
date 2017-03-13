@@ -99,8 +99,8 @@ public class JobData {
                 String a = column.getKey();
                 String b = column.getKey();
 //make strings lowercase
-                a = a.toLowerCase();
-                b = b.toLowerCase();
+                String a = a.toLowerCase();
+                String b = b.toLowerCase();
 //add values to row from both strings
                 if(a.contains(value) || b.contains(value)) {
                     jobs.add(row);
